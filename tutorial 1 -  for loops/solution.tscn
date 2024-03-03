@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://dse6te3mnh7us"]
+
+[ext_resource type="Script" path="res://tutorial 1 -  for loops/problem.gd" id="1_v7bqr"]
+[ext_resource type="PackedScene" uid="uid://dkcsjth2rknva" path="res://tutorial 1 -  for loops/assets/brick.tscn" id="2_i4oow"]
+
+[node name="Solution" type="Node2D"]
+script = ExtResource("1_v7bqr")
+brick_mesh_scene = ExtResource("2_i4oow")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 4.0
+offset_top = 103.0
+offset_right = 1156.0
+offset_bottom = 418.0
+text = "Problem:
+1. I want you to instantiate a packed_scene into a variable of type MeshInstance2D
+2. I want you to add a child to this base scene
+3. The tricky part is getting the global position right, as it is a bit finicky, so you have to know the dimensions of your asset 
+
+I have prepared a for loop for you with documentation per line attached to what you need to look up to accomplish this problem.
+The asset in question is available for you in the assets folder in this tutorial, and I have gone ahead and attached it to the export, so
+all you need to worry about is everything inside the for loop.
+
+If you run into trouble, the solution is right below, folder structure wise. No harm in checking it out to get your bearings."

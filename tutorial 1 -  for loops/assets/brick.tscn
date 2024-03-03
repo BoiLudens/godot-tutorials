@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkcsjth2rknva"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_qua8b"]
+
+[node name="brick" type="MeshInstance2D"]
+position = Vector2(77.25, 15.25)
+scale = Vector2(155.5, 31.5)
+mesh = SubResource("BoxMesh_qua8b")
